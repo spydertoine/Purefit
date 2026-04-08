@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poids du Corps | PureFit</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo" onclick="window.location.href='index.html'">Pure<span>Fit</span></div>
+        <div class="menu-burger" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="programmes.html">Programmes</a></li>
+            <li><a href="savoir.html">Savoir</a></li>
+            <li><a href="calculateur.html">Calculateur</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" style="margin-top: 100px;">
+        <h1>Maîtrise ton <span>Poids</span></h1>
+        <p style="color: #86868b;">Zéro matériel, 100% de résultats.</p>
+    </header>
+
+    <div class="sticky-nav">
+        <div class="nav-container">
+            <a href="#push" class="nav-link-btn">⬆️ Poussée</a>
+            <a href="#pull" class="nav-link-btn">⬇️ Tirage</a>
+            <a href="#legs" class="nav-link-btn">🦵 Jambes</a>
+            <a href="#core" class="nav-link-btn">🧱 Abdos</a>
+        </div>
+    </div>
+
+    <main class="container">
+
+        <section id="push">
+            <h2 class="method-title">⬆️ Force de Poussée (Pectoraux, Triceps, Épaules)</h2>
+            <div class="exercise-grid-inner">
+                <div class="muscle-card"
+                    onclick="openModal('img/pompe-genoux.jpg', 'Pompes Genoux', 'Posez les genoux au sol, gardez le dos droit et descendez la poitrine.')">
+                    <div class="exercise-info"><span class="ex-badge debutant">N1</span>
+                        <h4>1. Pompes Genoux</h4>
+                        <p class="muscle-engaged">💪 Pecs, Triceps</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/pompe-classique.jpg', 'Pompes Classiques', 'Le standard. Gardez les coudes à 45° du buste.')">
+                    <div class="exercise-info"><span class="ex-badge debutant">N2</span>
+                        <h4>2. Pompes Classiques</h4>
+                        <p class="muscle-engaged">💪 Pecs, Épaules, Triceps</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/dips-chaise-second.jpg', 'Dips Chaise', 'Mains sur une chaise, descendez les fesses vers le sol.')">
+                    <div class="exercise-info"><span class="ex-badge debutant">N3</span>
+                        <h4>3. Dips sur Chaise</h4>
+                        <p class="muscle-engaged">💪 Triceps</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/pompe-diamant.jpg', 'Pompes Diamant', 'Joignez vos index et pouces pour former un diamant.')">
+                    <div class="exercise-info"><span class="ex-badge inter">N4</span>
+                        <h4>4. Pompes Diamant</h4>
+                        <p class="muscle-engaged">💪 Triceps (Focus)</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/pompe-pique.jpg', 'Pompes Piquées', 'Fesses en l\'air, descendez le sommet du crâne vers le sol.')">
+                    <div class="exercise-info"><span class="ex-badge inter">N5</span>
+                        <h4>5. Pompes Piquées</h4>
+                        <p class="muscle-engaged">💪 Épaules</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/pompe-decline.jpg', 'Pompes Déclinées', 'Pieds surélevés pour cibler le haut des pectoraux.')">
+                    <div class="exercise-info"><span class="ex-badge inter">N6</span>
+                        <h4>6. Pompes Déclinées</h4>
+                        <p class="muscle-engaged">💪 Haut des Pecs</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/dips-barre.jpg', 'Dips Barres', 'Mouvement complet sur barres parallèles.')">
+                    <div class="exercise-info"><span class="ex-badge inter">N7</span>
+                        <h4>7. Dips (Barres)</h4>
+                        <p class="muscle-engaged">💪 Bas des Pecs</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/.jpg', 'Pompes Archer', 'Étendez un bras sur le côté pendant la descente.')">
+                    <div class="exercise-info"><span class="ex-badge expert">N8</span>
+                        <h4>8. Pompes Archer</h4>
+                        <p class="muscle-engaged">💪 Puissance Unilatérale</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/hspu.jpg', 'HSPU', 'Contre un mur, effectuez une poussée verticale.')">
+                    <div class="exercise-info"><span class="ex-badge expert">N9</span>
+                        <h4>9. HSPU</h4>
+                        <p class="muscle-engaged">💪 Épaules (Élite)</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/pompe-planche.jpg', 'Planche Pushups', 'Le corps flotte, seuls les mains touchent le sol.')">
+                    <div class="exercise-info"><span class="ex-badge expert">N10</span>
+                        <h4>10. Plank Pushups</h4>
+                        <p class="muscle-engaged">💪 Force Ultime</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="pull">
+            <h2 class="method-title">⬇️ Force de Tirage (Dos, Biceps)</h2>
+            <div class="exercise-grid-inner">
+                <div class="muscle-card"
+                    onclick="openModal('img/Superman.jpg', 'Superman', 'Allongé, levez buste et jambes simultanément.')">
+                    <div class="exercise-info"><span class="ex-badge debutant">N1</span>
+                        <h4>1. Superman</h4>
+                        <p class="muscle-engaged">💪 Lombaires</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/tirage-table.jpg', 'Tirage sous Table', 'Utilisez une table solide pour simuler un rowing.')">
+                    <div class="exercise-info"><span class="ex-badge debutant">N2</span>
+                        <h4>2. Tirage sous Table</h4>
+                        <p class="muscle-engaged">💪 Dos, Biceps</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/traction-Scapula.jpg', 'Scapula Pull-ups', 'Pendez-vous à une barre et levez-vous uniquement avec les omoplates.')">
+                    <div class="exercise-info"><span class="ex-badge debutant">N3</span>
+                        <h4>3. Scapula Pull-ups</h4>
+                        <p class="muscle-engaged">💪 Trapèzes</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/traction-australienne.jpg', 'Tractions Australiennes', 'Tractions horizontales à hauteur de hanches.')">
+                    <div class="exercise-info"><span class="ex-badge inter">N4</span>
+                        <h4>4. Tractions Australiennes</h4>
+                        <p class="muscle-engaged">💪 Dos complet</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/traction-negative.jpg', 'Tractions Négatives', 'Sautez en haut de la barre et freinez la descente.')">
+                    <div class="exercise-info"><span class="ex-badge inter">N5</span>
+                        <h4>5. Tractions Négatives</h4>
+                        <p class="muscle-engaged">💪 Dos (Force)</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/chin-up.jpg', 'Tractions Chin-ups', 'Paumes vers vous pour isoler les biceps.')">
+                    <div class="exercise-info"><span class="ex-badge inter">N6</span>
+                        <h4>6. Tractions Chin-ups</h4>
+                        <p class="muscle-engaged">💪 Biceps (Focus)</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/traction-pronation.jpg', 'Tractions Pronation', 'Le classique du dos large.')">
+                    <div class="exercise-info"><span class="ex-badge inter">N7</span>
+                        <h4>7. Tractions Pronation</h4>
+                        <p class="muscle-engaged">💪 Grand Dorsal</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/.jpg', 'Tractions Archer', 'Tirez vers un côté pour augmenter la charge.')">
+                    <div class="exercise-info"><span class="ex-badge expert">N8</span>
+                        <h4>8. Tractions Archer</h4>
+                        <p class="muscle-engaged">💪 Dos (Expert)</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/pull9.jpg', 'Muscle-Up', 'Combinaison d\'une traction et d\'un dip.')">
+                    <div class="exercise-info"><span class="ex-badge expert">N9</span>
+                        <h4>9. Muscle-Up</h4>
+                        <p class="muscle-engaged">💪 Puissance Totale</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/pull10.jpg', 'Traction une main', 'Le graal du tirage au poids du corps.')">
+                    <div class="exercise-info"><span class="ex-badge expert">N10</span>
+                        <h4>10. Traction une main</h4>
+                        <p class="muscle-engaged">💪 Élite</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="legs">
+            <h2 class="method-title">🦵 Force des Jambes (Quads, Fessiers)</h2>
+            <div class="exercise-grid-inner">
+                <div class="muscle-card"
+                    onclick="openModal('img/leg1.jpg', 'Squat Classique', 'Pieds largeur d\'épaules, descendez les fesses.')">
+                    <div class="exercise-info"><span class="ex-badge debutant">N1</span>
+                        <h4>1. Squat Classique</h4>
+                        <p class="muscle-engaged">💪 Quads, Fessiers</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/leg2.jpg', 'Fentes Alternées', 'Faites un pas en avant et descendez le genou arrière.')">
+                    <div class="exercise-info"><span class="ex-badge debutant">N2</span>
+                        <h4>2. Fentes Alternées</h4>
+                        <p class="muscle-engaged">💪 Ischios, Équilibre</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/leg3.jpg', 'Glute Bridge', 'Allongé, levez le bassin vers le plafond.')">
+                    <div class="exercise-info"><span class="ex-badge debutant">N3</span>
+                        <h4>3. Glute Bridge</h4>
+                        <p class="muscle-engaged">💪 Fessiers</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/leg4.jpg', 'La Chaise', 'Dos au mur, tenez la position à 90°.')">
+                    <div class="exercise-info"><span class="ex-badge inter">N4</span>
+                        <h4>4. La Chaise</h4>
+                        <p class="muscle-engaged">💪 Endurance Quads</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/leg5.jpg', 'Fentes Cosaques', 'Fente latérale très profonde pour la mobilité.')">
+                    <div class="exercise-info"><span class="ex-badge inter">N5</span>
+                        <h4>5. Fentes Cosaques</h4>
+                        <p class="muscle-engaged">💪 Adducteurs</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/leg6.jpg', 'Squat Bulgare', 'Une jambe surélevée sur un support arrière.')">
+                    <div class="exercise-info"><span class="ex-badge inter">N6</span>
+                        <h4>6. Squat Bulgare</h4>
+                        <p class="muscle-engaged">💪 Ischios, Quads</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/leg7.jpg', 'Nordic Curl', 'Fixez vos talons et freinez la chute vers l\'avant.')">
+                    <div class="exercise-info"><span class="ex-badge inter">N7</span>
+                        <h4>7. Nordic Curl</h4>
+                        <p class="muscle-engaged">💪 Ischios (Puissance)</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/leg8.jpg', 'Squat Sauté', 'Squat explosif avec saut vertical.')">
+                    <div class="exercise-info"><span class="ex-badge expert">N8</span>
+                        <h4>8. Squat Sauté</h4>
+                        <p class="muscle-engaged">💪 Explosion</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/leg9.jpg', 'Shrimp Squat', 'Descendez sur une jambe en tenant l\'autre derrière.')">
+                    <div class="exercise-info"><span class="ex-badge expert">N9</span>
+                        <h4>9. Shrimp Squat</h4>
+                        <p class="muscle-engaged">💪 Fessiers, Contrôle</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/leg10.jpg', 'Pistol Squat', 'Le squat sur une jambe seule.')">
+                    <div class="exercise-info"><span class="ex-badge expert">N10</span>
+                        <h4>10. Pistol Squat</h4>
+                        <p class="muscle-engaged">💪 Force brute</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="core">
+            <h2 class="method-title">🧱 Sangle Abdominale & Gainage</h2>
+            <div class="exercise-grid-inner">
+                <div class="muscle-card"
+                    onclick="openModal('img/core1.jpg', 'Planche', 'Gainage statique sur les avant-bras.')">
+                    <div class="exercise-info"><span class="ex-badge debutant">N1</span>
+                        <h4>1. Planche Gainage</h4>
+                        <p class="muscle-engaged">💪 Transverse</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/core2.jpg', 'Crunch', 'Relevé de buste court pour isoler les abdos.')">
+                    <div class="exercise-info"><span class="ex-badge debutant">N2</span>
+                        <h4>2. Crunch</h4>
+                        <p class="muscle-engaged">💪 Grand Droit</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/core3.jpg', 'Mountain Climbers', 'En planche, ramenez les genoux au torse rapidement.')">
+                    <div class="exercise-info"><span class="ex-badge debutant">N3</span>
+                        <h4>3. Mountain Climbers</h4>
+                        <p class="muscle-engaged">💪 Abdos, Coeur</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/core4.jpg', 'Planche Latérale', 'Gainage sur un seul avant-bras de côté.')">
+                    <div class="exercise-info"><span class="ex-badge inter">N4</span>
+                        <h4>4. Planche Latérale</h4>
+                        <p class="muscle-engaged">💪 Obliques</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/core5.jpg', 'Relevé de Jambes', 'Allongé, levez les jambes tendues sans creuser le dos.')">
+                    <div class="exercise-info"><span class="ex-badge inter">N5</span>
+                        <h4>5. Relevé de Jambes</h4>
+                        <p class="muscle-engaged">💪 Bas des Abdos</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/core6.jpg', 'Russian Twist', 'Rotation du buste assis, pieds décollés.')">
+                    <div class="exercise-info"><span class="ex-badge inter">N6</span>
+                        <h4>6. Russian Twist</h4>
+                        <p class="muscle-engaged">💪 Obliques</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/core7.jpg', 'Hollow Body Hold', 'La banane. Plaquez le bas du dos au sol.')">
+                    <div class="exercise-info"><span class="ex-badge inter">N7</span>
+                        <h4>7. Hollow Body</h4>
+                        <p class="muscle-engaged">💪 Gainage Profond</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/core8.jpg', 'L-Sit', 'Maintenez les jambes à l\'horizontale avec vos mains.')">
+                    <div class="exercise-info"><span class="ex-badge expert">N8</span>
+                        <h4>8. L-Sit</h4>
+                        <p class="muscle-engaged">💪 Sangle complète</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/core9.jpg', 'Dragon Flag', 'Levez tout votre corps à la verticale, dos gainé.')">
+                    <div class="exercise-info"><span class="ex-badge expert">N9</span>
+                        <h4>9. Dragon Flag</h4>
+                        <p class="muscle-engaged">💪 Abdos (Légende)</p>
+                    </div>
+                </div>
+                <div class="muscle-card"
+                    onclick="openModal('img/core10.jpg', 'Toes to Bar', 'Pendu à une barre, touchez la barre avec vos pieds.')">
+                    <div class="exercise-info"><span class="ex-badge expert">N10</span>
+                        <h4>10. Toes to Bar</h4>
+                        <p class="muscle-engaged">💪 Élite</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="exerciseModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <img id="modalImg" src="" alt="Exercice">
+                <h3 id="modalTitle"></h3>
+                <p id="modalDesc"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer style="padding: 40px 20px; text-align: center;">
+        <p>© 2026 PureFit - Maîtrise ton corps</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

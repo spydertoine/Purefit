@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmes | PureFit</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo" onclick="window.location.href='index.html'">Pure<span>Fit</span></div>
+    
+    <div class="menu-burger" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+    <ul class="nav-links">
+            <li><a href="index.html" class="active">Accueil</a></li>
+            <li><a href="savoir.html">Savoir</a></li>
+            <li><a href="calculateur.html">Calculateur</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+        </ul>
+</nav>
+    <header class="hero" style="margin-top: 100px; text-align: center;">
+        <h1>Plans de <span>Progression</span></h1>
+        <p style="color: #86868b;">Des séances complètes, prêtes pour l'action.</p>
+    </header>
+
+    <div class="sticky-nav">
+        <div class="nav-container">
+            <a href="#muscles" class="nav-link-btn">💪 Séances par Muscle</a>
+            <a href="#ppl" class="nav-link-btn">⚡ PPL (Push Pull Legs)</a>
+            <a href="#power" class="nav-link-btn">🏋️ Powerlifting Force</a>
+            <a href="#cardio" class="nav-link-btn">🏃 Cardio & HIIT</a>
+        </div>
+    </div>
+
+    <main class="container">
+
+        <section id="muscles">
+            <h2 class="method-title">💪 Séances Focus Musculaire</h2>
+
+            <section class="level-section section-debutant">
+                <h3 class="title-debutant">🟢 Niveau : Débutant (Full Body Apprentissage)</h3>
+                <div class="program-meta">
+                    <span class="meta-badge">⏱️ 50 min</span> <span class="meta-badge">📅 3x / semaine</span> <span
+                        class="meta-badge">🧘 Repos moyen : 90s</span>
+                </div>
+                <div class="exercise-grid-inner">
+                    <div class="muscle-card">
+                        <h4>Pectoraux & Triceps</h4>
+                        <span class="ex-item"><strong>1. Machine :</strong> Chest Press Assis - 3 x 12 <span
+                                class="rest-note">Repos : 1m30</span></span>
+                        <span class="ex-item"><strong>2. Haltères :</strong> Développé Couché - 3 x 10 <span
+                                class="rest-note">Repos : 1m30</span></span>
+                        <span class="ex-item"><strong>3. Corps :</strong> Pompes sur les genoux - 3 x Max <span
+                                class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>4. Machine :</strong> Extension Triceps Poulie - 3 x 12 <span
+                                class="rest-note">Repos : 1m</span></span>
+                    </div>
+                    <div class="muscle-card">
+                        <h4>Jambes & Abdos</h4>
+                        <span class="ex-item"><strong>1. Haltères :</strong> Goblet Squat - 3 x 12 <span
+                                class="rest-note">Repos : 2m</span></span>
+                        <span class="ex-item"><strong>2. Machine :</strong> Presse à cuisses - 3 x 10 <span
+                                class="rest-note">Repos : 2m</span></span>
+                        <span class="ex-item"><strong>3. Machine :</strong> Leg Curl (Ischios) - 3 x 12 <span
+                                class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>4. Corps :</strong> Planche abdominale - 3 x 45s <span
+                                class="rest-note">Repos : 1m</span></span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="level-section section-inter">
+                <h3 class="title-inter">🟠 Niveau : Intermédiaire (Split Upper/Lower)</h3>
+                <div class="program-meta">
+                    <span class="meta-badge">⏱️ 65 min</span> <span class="meta-badge">📅 4x / semaine</span> <span
+                        class="meta-badge">🧘 Repos : 75s</span>
+                </div>
+                <div class="exercise-grid-inner">
+                    <div class="muscle-card">
+                        <h4>Dos & Biceps (Tirage)</h4>
+                        <span class="ex-item"><strong>1. Corps :</strong> Tractions (Pronation) - 3 x Max <span
+                                class="rest-note">Repos : 1m30</span></span>
+                        <span class="ex-item"><strong>2. Haltères :</strong> Rowing un bras - 4 x 10 <span
+                                class="rest-note">Repos : 1m15</span></span>
+                        <span class="ex-item"><strong>3. Machine :</strong> Tirage horizontal poulie - 3 x 12 <span
+                                class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>4. Machine :</strong> Facepull (Arrière épaule) - 3 x 15 <span
+                                class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>5. Haltères :</strong> Curl marteau - 3 x 12 <span
+                                class="rest-note">Repos : 1m</span></span>
+                    </div>
+                    <div class="muscle-card">
+                        <h4>Épaules & Triceps</h4>
+                        <span class="ex-item"><strong>1. Haltères :</strong> Développé Militaire - 4 x 8 <span
+                                class="rest-note">Repos : 1m30</span></span>
+                        <span class="ex-item"><strong>2. Haltères :</strong> Élévations latérales - 3 x 15 <span
+                                class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>3. Machine :</strong> Shoulder Press Machine - 3 x 10 <span
+                                class="rest-note">Repos : 1m15</span></span>
+                        <span class="ex-item"><strong>4. Corps :</strong> Dips sur barres - 3 x Max <span
+                                class="rest-note">Repos : 1m15</span></span>
+                        <span class="ex-item"><strong>5. Haltères :</strong> Extension derrière la tête - 3 x 12 <span
+                                class="rest-note">Repos : 1m</span></span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="level-section section-expert">
+                <h3 class="title-expert">🔴 Niveau : Avancé (Volume & Intensité)</h3>
+                <div class="program-meta">
+                    <span class="meta-badge">⏱️ 85 min</span> <span class="meta-badge">📅 5x / semaine</span> <span
+                        class="meta-badge">🧘 Repos variable</span>
+                </div>
+                <div class="exercise-grid-inner">
+                    <div class="muscle-card">
+                        <h4>Légende des Jambes (Quads/Fessiers)</h4>
+                        <span class="ex-item"><strong>1. Machine :</strong> Hack Squat lourd - 4 x 8 <span
+                                class="rest-note">Repos : 2m30</span></span>
+                        <span class="ex-item"><strong>2. Haltères :</strong> Fentes Bulgares - 3 x 10 (par jambe) <span
+                                class="rest-note">Repos : 1m30</span></span>
+                        <span class="ex-item"><strong>3. Machine :</strong> Leg Extension (Drop-set) - 3 x 12+10 <span
+                                class="rest-note">Repos : 1m15</span></span>
+                        <span class="ex-item"><strong>4. Corps :</strong> Sissy Squat au sol - 3 x Max <span
+                                class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>5. Machine :</strong> Presse à mollets - 4 x 15 <span
+                                class="rest-note">Repos : 45s</span></span>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <hr>
+
+        <section id="ppl">
+            <h2 class="method-title">⚡ PPL (Push / Pull / Legs)</h2>
+            <section class="level-section section-inter">
+                <h3 class="title-inter">Programme PPL Intermédiaire Complet</h3>
+                <div class="exercise-grid-inner">
+                    <div class="muscle-card">
+                        <h4>Jour PUSH</h4>
+                        <span class="ex-item"><strong>1. Haltères :</strong> DC Haltères - 4 x 8 <span
+                                class="rest-note">Repos : 2m</span></span>
+                        <span class="ex-item"><strong>2. Machine :</strong> Incliné Convergent - 3 x 10 <span
+                                class="rest-note">Repos : 1m30</span></span>
+                        <span class="ex-item"><strong>3. Haltères :</strong> Arnold Press (Épaules) - 3 x 10 <span
+                                class="rest-note">Repos : 1m15</span></span>
+                        <span class="ex-item"><strong>4. Machine :</strong> Écartés Poulie - 3 x 15 <span
+                                class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>5. Corps :</strong> Dips Lestés - 3 x 8 <span
+                                class="rest-note">Repos : 1m30</span></span>
+                        <span class="ex-item"><strong>6. Machine :</strong> Extension Triceps Corde - 3 x 12 <span
+                                class="rest-note">Repos : 1m</span></span>
+                    </div>
+
+                    <div class="muscle-card">
+                        <h4>Jour PULL</h4>
+                        <span class="ex-item"><strong>1. Corps :</strong> Tractions Pronation - 4 x Max <span
+                                class="rest-note">Repos : 2m</span></span>
+                        <span class="ex-item"><strong>2. Haltères :</strong> Rowing Buste Penché - 4 x 8 <span
+                                class="rest-note">Repos : 1m30</span></span>
+                        <span class="ex-item"><strong>3. Machine :</strong> Tirage Poitrine Large - 3 x 10 <span
+                                class="rest-note">Repos : 1m15</span></span>
+                        <span class="ex-item"><strong>4. Haltères :</strong> Shrugs (Trapèzes) - 3 x 12 <span
+                                class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>5. Haltères :</strong> Curl Incliné (Biceps) - 3 x 10 <span
+                                class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>6. Machine :</strong> Facepull Poulie - 3 x 15 <span
+                                class="rest-note">Repos : 1m</span></span>
+                    </div>
+
+                    <div class="muscle-card">
+                        <h4>Jour LEGS</h4>
+                        <span class="ex-item"><strong>1. Machine :</strong> Presse à cuisses (Lourd) - 4 x 8 <span
+                                class="rest-note">Repos : 2m30</span></span>
+                        <span class="ex-item"><strong>2. Haltères :</strong> Goblet Squat - 3 x 12 <span
+                                class="rest-note">Repos : 1m30</span></span>
+                        <span class="ex-item"><strong>3. Machine :</strong> Leg Extension (Isothermie) - 3 x 12 <span
+                                class="rest-note">Repos : 1m15</span></span>
+                        <span class="ex-item"><strong>4. Haltères :</strong> Soulevé de terre jambes tendues - 3 x 10
+                            <span class="rest-note">Repos : 1m30</span></span>
+                        <span class="ex-item"><strong>5. Corps :</strong> Fentes alternées - 3 x 20 pas <span
+                                class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>6. Machine :</strong> Mollets debout - 4 x 15 <span
+                                class="rest-note">Repos : 45s</span></span>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <hr>
+
+        <section id="ppl">
+
+            <section class="level-section section-debutant" style="background: #fdfcf0; border: 1px solid #f1e4bc;">
+                <h3 class="group-title" style="color: #856404;">🏠 PPL Spécial Maison (100% Poids du Corps)</h3>
+                <div class="program-meta">
+                    <span class="meta-badge">⏱️ 45 min</span> <span class="meta-badge">🏠 Aucun matériel</span> <span
+                        class="meta-badge">🧘 Repos : 60s</span>
+                </div>
+                <div class="exercise-grid-inner">
+                    <div class="muscle-card">
+                        <h4>Push</h4>
+                        <span class="ex-item"><strong>1. Pompes Classiques :</strong> 4 x Max <span
+                                class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>2. Pompes Diamant :</strong> 3 x 12 (Focus Triceps) <span
+                                class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>3. Pompes Piquées :</strong> 3 x 10 (Focus Épaules) <span
+                                class="rest-note">Repos : 1m15</span></span>
+                        <span class="ex-item"><strong>4. Dips sur Chaise :</strong> 3 x 15 <span class="rest-note">Repos
+                                : 1m</span></span>
+                        <span class="ex-item"><strong>5. Gainage Dynamique :</strong> 3 x 45s</span>
+                    </div>
+
+                    <div class="muscle-card">
+                        <h4>Pull</h4>
+                        <span class="ex-item"><strong>1. Tirage sous Table :</strong> 4 x Max (Rowing inversé) <span
+                                class="rest-note">Repos : 1m15</span></span>
+                        <span class="ex-item"><strong>2. Superman :</strong> 3 x 15 (Lombaires/Dos) <span
+                                class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>3. W-Extensions :</strong> 3 x 20 (Arrière épaule) <span
+                                class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>4. Curl Biceps Sac à dos :</strong> 3 x 12 (Utiliser un lest)
+                            <span class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>5. Hollow Body :</strong> 3 x 30s (Abdos profonds)</span>
+                    </div>
+
+                    <div class="muscle-card">
+                        <h4>Legs</h4>
+                        <span class="ex-item"><strong>1. Squats Explosifs :</strong> 4 x 20 <span
+                                class="rest-note">Repos : 1m30</span></span>
+                        <span class="ex-item"><strong>2. Fentes Bulgares :</strong> 3 x 12 (Pied sur canapé) <span
+                                class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>3. Glute Bridge :</strong> 3 x 20 (Fessiers/Ischios) <span
+                                class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>4. Squat Isométrique :</strong> 3 x 45s (Chaise au mur) <span
+                                class="rest-note">Repos : 1m</span></span>
+                        <span class="ex-item"><strong>5. Mollets unilatéral :</strong> 4 x 20 (Sur une marche)</span>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <hr>
+
+        <section id="power">
+            <h2 class="method-title">🏋️ Powerlifting : La Force Athlétique</h2>
+
+            <section class="level-section section-debutant">
+                <h3 class="title-debutant">🟢 Niveau : Débutant (Initiation Force)</h3>
+                <div class="program-meta">
+                    <span class="meta-badge">⏱️ 60 min</span>
+                    <span class="meta-badge">📅 3x / semaine</span>
+                    <span class="meta-badge">🧘 Repos : 2min30</span>
+                </div>
+                <div class="exercise-grid-inner">
+                    <div class="muscle-card">
+                        <h4>Séance Initiation SBD</h4>
+                        <span class="ex-item"><strong>1. Haltères :</strong> Goblet Squat - 3 x 10 <span
+                                class="rest-note">Focus : Profondeur & Dos droit</span></span>
+                        <span class="ex-item"><strong>2. Machine :</strong> Chest Press (Lourd) - 4 x 10 <span
+                                class="rest-note">Focus : Poussée explosive</span></span>
+                        <span class="ex-item"><strong>3. Haltères :</strong> Soulevé de terre - 3 x 10 <span
+                                class="rest-note">Focus : Charnière de hanche</span></span>
+                        <span class="ex-item"><strong>4. Machine :</strong> Tirage vertical - 3 x 12 <span
+                                class="rest-note">Stabilité du dos</span></span>
+                        <span class="ex-item"><strong>5. Corps :</strong> Planche - 3 x 45s</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="level-section section-inter">
+                <h3 class="title-inter">🟠 Niveau : Intermédiaire (Progression Linéaire)</h3>
+                <div class="program-meta">
+                    <span class="meta-badge">⏱️ 80 min</span>
+                    <span class="meta-badge">📅 3-4x / semaine</span>
+                    <span class="meta-badge">🧘 Repos : 3 min</span>
+                </div>
+                <div class="exercise-grid-inner">
+                    <div class="muscle-card">
+                        <h4>Force & Volume A</h4>
+                        <span class="ex-item"><strong>1. Barre :</strong> Back Squat - 5 x 5 <span
+                                class="rest-note">Charge : 75% du Max</span></span>
+                        <span class="ex-item"><strong>2. Barre :</strong> Bench Press - 5 x 5 <span
+                                class="rest-note">Charge : 75% du Max</span></span>
+                        <span class="ex-item"><strong>3. Haltères :</strong> Fentes marchées - 3 x 20 pas <span
+                                class="rest-note">Renfort unilatéral</span></span>
+                        <span class="ex-item"><strong>4. Machine :</strong> Rowing horizontal - 4 x 10</span>
+                        <span class="ex-item"><strong>5. Corps :</strong> Dips - 3 x Max</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="level-section section-expert">
+                <h3 class="title-expert">🔴 Niveau : Avancé (Maximisation Force)</h3>
+                <div class="program-meta">
+                    <span class="meta-badge">⏱️ 100+ min</span>
+                    <span class="meta-badge">📅 4x / semaine</span>
+                    <span class="meta-badge">🧘 Repos : 4-5 min</span>
+                </div>
+                <div class="exercise-grid-inner">
+                    <div class="muscle-card">
+                        <h4>SBD Performance (Lourd)</h4>
+                        <span class="ex-item"><strong>1. Barre :</strong> Squat - 3 x 3 (85-90% 1RM) <span
+                                class="rest-note">Repos : 5 min</span></span>
+                        <span class="ex-item"><strong>2. Barre :</strong> Bench Press - 3 x 3 (85-90% 1RM) <span
+                                class="rest-note">Repos : 4 min</span></span>
+                        <span class="ex-item"><strong>3. Barre :</strong> Deadlift - 2 x 2 (90% 1RM) <span
+                                class="rest-note">Repos : 5 min</span></span>
+                        <span class="ex-item"><strong>4. Machine :</strong> Hack Squat - 3 x 8 <span
+                                class="rest-note">Assistance quadriceps</span></span>
+                        <span class="ex-item"><strong>5. Haltères :</strong> Z-Press (Épaules) - 3 x 8 <span
+                                class="rest-note">Force de poussée brute</span></span>
+                        <span class="ex-item"><strong>6. Corps :</strong> Tractions lestées - 4 x 6</span>
+                    </div>
+                </div>
+            </section>
+        </section>
+        </section>
+
+        <hr>
+
+        <section id="cardio">
+            <h2 class="method-title">🏃 Cardio & HIIT : Endurance Pure</h2>
+
+            <section class="level-section section-debutant">
+                <h3 class="title-debutant">🟢 Niveau : Débutant (Endurance Fondamentale)</h3>
+                <div class="program-meta">
+                    <span class="meta-badge">⏱️ 30-40 min</span>
+                    <span class="meta-badge">🎯 Objectif : Santé Cardiaque</span>
+                    <span class="meta-badge">🧘 Repos : Continu</span>
+                </div>
+                <div class="exercise-grid-inner">
+                    <div class="muscle-card">
+                        <h4>🏢 Option Salle (Machines)</h4>
+                        <span class="ex-item"><strong>1. Tapis de course :</strong> Marche inclinée (6%) - 20 min <span
+                                class="rest-note">Vitesse : 5-6 km/h</span></span>
+                        <span class="ex-item"><strong>2. Vélo elliptique :</strong> Résistance modérée - 10 min <span
+                                class="rest-note">Cadence constante</span></span>
+                        <span class="ex-item"><strong>3. Rameur :</strong> Rythme régulier - 5 min <span
+                                class="rest-note">Focus respiration</span></span>
+                    </div>
+                    <div class="muscle-card">
+                        <h4>🏠 Option Maison (Corps)</h4>
+                        <span class="ex-item"><strong>1. Marche active :</strong> Extérieur - 20 min</span>
+                        <span class="ex-item"><strong>2. Jumping Jacks :</strong> 3 x 45 sec <span
+                                class="rest-note">Repos : 30s</span></span>
+                        <span class="ex-item"><strong>3. Montées de genoux :</strong> 3 x 30 sec <span
+                                class="rest-note">Repos : 30s</span></span>
+                        <span class="ex-item"><strong>4. Rotation du buste :</strong> 3 x 1 min</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="level-section section-inter">
+                <h3 class="title-inter">🟠 Niveau : Intermédiaire (Fractionné)</h3>
+                <div class="program-meta">
+                    <span class="meta-badge">⏱️ 25-30 min</span>
+                    <span class="meta-badge">🎯 Objectif : Brûle-calories</span>
+                    <span class="meta-badge">🧘 Repos : Court</span>
+                </div>
+                <div class="exercise-grid-inner">
+                    <div class="muscle-card">
+                        <h4>🏢 Option Salle (Intervalles)</h4>
+                        <span class="ex-item"><strong>1. Tapis (Fractionné) :</strong> 1 min Course (12km/h) / 1 min
+                            Marche (5km/h) <span class="rest-note">Répéter 10 fois</span></span>
+                        <span class="ex-item"><strong>2. Escalier (Stairmaster) :</strong> Rythme soutenu - 10 min <span
+                                class="rest-note">Sans se tenir aux rampes</span></span>
+                    </div>
+                    <div class="muscle-card">
+                        <h4>🏠 Option Maison (Circuit)</h4>
+                        <span class="ex-item"><strong>1. Burpees :</strong> 45 sec effort / 15 sec repos</span>
+                        <span class="ex-item"><strong>2. Mountain Climbers :</strong> 45 sec effort / 15 sec
+                            repos</span>
+                        <span class="ex-item"><strong>3. Squat Jumps :</strong> 45 sec effort / 15 sec repos</span>
+                        <span class="ex-item"><strong>4. Fentes sautées :</strong> 45 sec effort / 15 sec repos</span>
+                        <span class="ex-item"><strong>Circuit :</strong> Faire 4 tours complets.</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="level-section section-expert">
+                <h3 class="title-expert">🔴 Niveau : Avancé (HIIT Explosif)</h3>
+                <div class="program-meta">
+                    <span class="meta-badge">⏱️ 15-20 min</span>
+                    <span class="meta-badge">🎯 Objectif : Performance Maximale</span>
+                    <span class="meta-badge">🧘 Repos : Ultra-court</span>
+                </div>
+                <div class="exercise-grid-inner">
+                    <div class="muscle-card">
+                        <h4>🏢 Option Salle (Assault/Rameur)</h4>
+                        <span class="ex-item"><strong>1. Assault Bike (ou Vélo) :</strong> Sprint 20 sec / Repos 10 sec
+                            <span class="rest-note">Protocole Tabata - 8 cycles</span></span>
+                        <span class="ex-item"><strong>2. Rameur :</strong> Sprint 300m / Repos 30 sec <span
+                                class="rest-note">Répéter 5 fois</span></span>
+                        <span class="ex-item"><strong>3. Tapis (Sprints) :</strong> Vitesse Max - 15 sec / Repos 30 sec
+                            <span class="rest-note">Répéter 10 fois</span></span>
+                    </div>
+                    <div class="muscle-card">
+                        <h4>🏠 Option Maison (Metcon)</h4>
+                        <span class="ex-item"><strong>AMRAP 15 min (Faire le plus de tours possible) :</strong></span>
+                        <span class="ex-item"><strong>1. 10 Burpees</strong></span>
+                        <span class="ex-item"><strong>2. 20 Fentes sautées</strong></span>
+                        <span class="ex-item"><strong>3. 30 Pompes</strong></span>
+                        <span class="ex-item"><strong>4. 40 Air Squats</strong></span>
+                        <span class="rest-note">Repos : Uniquement si nécessaire</span>
+                    </div>
+                </div>
+            </section>
+        </section>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+
+</html>

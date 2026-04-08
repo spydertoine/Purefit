@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition & Savoir | PureFit</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo" onclick="window.location.href='index.html'">Pure<span>Fit</span></div>
+        <div class="menu-burger" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="programmes.html">Programmes</a></li>
+            <li><a href="savoir.html" class="active">Savoir</a></li>
+            <li><a href="calculateur.html">Calculateur</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1>L'Art de la <span>Nutrition</span></h1>
+        <p style="color: #86868b;">Mange intelligemment pour transformer ton corps.</p>
+    </header>
+
+    <div class="sticky-nav">
+        <div class="nav-container">
+            <a href="#macros" class="nav-link-btn">🥩 Les Macros</a>
+            <a href="#recettes" class="nav-link-btn">🍳 Recettes</a>
+            <a href="#conseils" class="nav-link-btn">💡 Conseils Pro</a>
+            <a href="#complements" class="nav-link-btn">💊 Complements</a>
+        </div>
+    </div>
+
+    <main class="container">
+
+        <section id="macros">
+            <h2 class="method-title">🥩 Comprendre les Macros</h2>
+            <div class="exercise-grid-inner">
+
+                <div class="muscle-card">
+                    <h3 style="color: #ff3b30;">🍗 Protéines</h3>
+                    <p style="font-size: 0.85rem; color: #86868b; margin-bottom: 15px;">Briques du muscle (4 kcal/g)</p>
+                    <ul class="food-list">
+                        <li><strong>Animal :</strong> Poulet, Œufs, Poisson, Fromage blanc, Bœuf 5%</li>
+                        <li><strong>Végétal :</strong> Tofu, Lentilles, Pois chiches, Seitan, Tempeh</li>
+                        <li><strong>Compléments :</strong> Whey, Caséine, Protéine végétale</li>
+                    </ul>
+                </div>
+
+                <div class="muscle-card">
+                    <h3 style="color: #0071e3;">🍚 Glucides</h3>
+                    <p style="font-size: 0.85rem; color: #86868b; margin-bottom: 15px;">Carburant de l'effort (4 kcal/g)
+                    </p>
+                    <ul class="food-list">
+                        <li><strong>Lents :</strong> Riz basmati, Pâtes complètes, Avoine, Patate douce</li>
+                        <li><strong>Rapides :</strong> Fruits frais, Miel, Dattes, Bananes</li>
+                        <li><strong>Légumes :</strong> Brocolis, Épinards, Courgettes (fibres)</li>
+                    </ul>
+                </div>
+
+                <div class="muscle-card">
+                    <h3 style="color: #ffcc00;">🥑 Lipides</h3>
+                    <p style="font-size: 0.85rem; color: #86868b; margin-bottom: 15px;">Santé hormonale (9 kcal/g)</p>
+                    <ul class="food-list">
+                        <li><strong>Saturés :</strong> Beurre, Huile de coco, Fromages</li>
+                        <li><strong>Insaturés :</strong> Avocat, Olives, Noix, Amandes, Beurre de cacahuètes</li>
+                        <li><strong>Omega-3 :</strong> Saumon, Graines de lin, Compléments d'huile de poisson</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="recettes">
+            <h2 class="method-title">🍳 Le Guide Culinaire Précis</h2>
+
+            <h3 class="title-debutant" style="margin-bottom: 20px;">🥗 Objectif : Perte de Poids / Sèche</h3>
+            <div class="exercise-grid-inner">
+                <div class="muscle-card">
+                    <h4 style="color: #1a7f37;">1. Pancakes Banane-Cardamome</h4>
+                    <p style="font-size: 0.8rem; color: #86868b;">🕒 5 min | 🔥 350 kcal</p>
+                    <p style="margin: 10px 0; font-size: 0.9rem;"><strong>🛒 Ingrédients :</strong> 1 banane, 2 œufs,
+                        30g avoine, 1 c.à.c de cardamome, 1 pincée de sel.</p>
+                    <div style="font-size: 0.9rem; border-top: 1px solid #eee; padding-top: 10px;">
+                        <strong>👨‍🍳 Étapes :</strong>
+                        <ul style="padding-left: 15px; margin-top: 5px;">
+                            <li>Écraser la banane à la fourchette dans un bol.</li>
+                            <li>Ajouter œufs, avoine et cardamome. Mélanger.</li>
+                            <li>Cuire 2 min par face à la poêle (feu moyen).</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="muscle-card">
+                    <h4 style="color: #1a7f37;">2. Omelette Shakshuka Style</h4>
+                    <p style="font-size: 0.8rem; color: #86868b;">🕒 8 min | 🔥 290 kcal</p>
+                    <p style="margin: 10px 0; font-size: 0.9rem;"><strong>🛒 Ingrédients :</strong> 2 œufs, 1 gousse
+                        d'ail, 1/2 oignon, 1 c.à.c de paprika, 1 c.à.c de cumin.</p>
+                    <div style="font-size: 0.9rem; border-top: 1px solid #eee; padding-top: 10px;">
+                        <strong>👨‍🍳 Étapes :</strong>
+                        <ul style="padding-left: 15px; margin-top: 5px;">
+                            <li>Faire revenir l'ail et l'oignon hachés avec les épices.</li>
+                            <li>Verser les œufs battus par-dessus.</li>
+                            <li>Cuire 3 min, plier en deux et servir.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="muscle-card">
+                    <h4 style="color: #1a7f37;">3. Cabillaud Thaï en Papillote</h4>
+                    <p style="font-size: 0.8rem; color: #86868b;">🕒 20 min | 🔥 310 kcal</p>
+                    <p style="margin: 10px 0; font-size: 0.9rem;"><strong>🛒 Ingrédients :</strong> 150g cabillaud, 1
+                        c.à.c gingembre râpé, 1 c.à.s de jus de citron vert, coriandre.</p>
+                    <div style="font-size: 0.9rem; border-top: 1px solid #eee; padding-top: 10px;">
+                        <strong>👨‍🍳 Étapes :</strong>
+                        <ul style="padding-left: 15px; margin-top: 5px;">
+                            <li>Poser le poisson sur du papier cuisson.</li>
+                            <li>Verser le citron vert et saupoudrer le gingembre.</li>
+                            <li>Fermer hermétiquement, cuire 15 min à 180°C.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="muscle-card">
+                    <h4 style="color: #1a7f37;">4. Poulet Mariné Citron-Thym</h4>
+                    <p style="font-size: 0.8rem; color: #86868b;">🕒 15 min | 🔥 340 kcal</p>
+                    <p style="margin: 10px 0; font-size: 0.9rem;"><strong>🛒 Ingrédients :</strong> 150g poulet, 2 c.à.s
+                        de jus de citron, 1 c.à.c de thym, sel/poivre.</p>
+                    <div style="font-size: 0.9rem; border-top: 1px solid #eee; padding-top: 10px;">
+                        <strong>👨‍🍳 Étapes :</strong>
+                        <ul style="padding-left: 15px; margin-top: 5px;">
+                            <li>Mélanger citron et thym dans un bol, y tremper le poulet (10 min).</li>
+                            <li>Chauffer une poêle sans gras.</li>
+                            <li>Griller le poulet 5 min par face.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="margin: 40px 0; opacity: 0.1;">
+
+            <h3 class="title-inter" style="margin-bottom: 20px;">⚖️ Objectif : Maintien / Équilibre</h3>
+            <div class="exercise-grid-inner">
+                <div class="muscle-card">
+                    <h4 style="color: #0071e3;">1. Bowl Poulet Teriyaki</h4>
+                    <p style="font-size: 0.8rem; color: #86868b;">🕒 15 min | 🔥 560 kcal</p>
+                    <p style="margin: 10px 0; font-size: 0.9rem;"><strong>🛒 Ingrédients :</strong> Poulet, 60g riz cru,
+                        2 c.à.s sauce soja, 1 c.à.c miel, 1 c.à.c sésame.</p>
+                    <div style="font-size: 0.9rem; border-top: 1px solid #eee; padding-top: 10px;">
+                        <strong>👨‍🍳 Étapes :</strong>
+                        <ul style="padding-left: 15px; margin-top: 5px;">
+                            <li>Cuire le riz. Griller les dés de poulet.</li>
+                            <li>Verser soja + miel sur le poulet en fin de cuisson.</li>
+                            <li>Mélanger jusqu'à ce que ce soit collant, servir sur le riz.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="muscle-card">
+                    <h4 style="color: #0071e3;">2. Wrap Méditerranéen</h4>
+                    <p style="font-size: 0.8rem; color: #86868b;">🕒 5 min | 🔥 490 kcal</p>
+                    <p style="margin: 10px 0; font-size: 0.9rem;"><strong>🛒 Ingrédients :</strong> 1 tortilla, 1 boîte
+                        thon, 1 c.à.c origan, 1 c.à.s jus de citron.</p>
+                    <div style="font-size: 0.9rem; border-top: 1px solid #eee; padding-top: 10px;">
+                        <strong>👨‍🍳 Étapes :</strong>
+                        <ul style="padding-left: 15px; margin-top: 5px;">
+                            <li>Mélanger thon, citron et origan dans un bol.</li>
+                            <li>Chauffer la tortilla 30 sec, étaler le mélange.</li>
+                            <li>Rouler et fermer serré.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="muscle-card">
+                    <h4 style="color: #0071e3;">3. Quinoa Curry & Coco</h4>
+                    <p style="font-size: 0.8rem; color: #86868b;">🕒 20 min | 🔥 530 kcal</p>
+                    <p style="margin: 10px 0; font-size: 0.9rem;"><strong>🛒 Ingrédients :</strong> 70g quinoa cru, 1
+                        c.à.c curry, 50ml lait de coco léger, coriandre.</p>
+                    <div style="font-size: 0.9rem; border-top: 1px solid #eee; padding-top: 10px;">
+                        <strong>👨‍🍳 Étapes :</strong>
+                        <ul style="padding-left: 15px; margin-top: 5px;">
+                            <li>Cuire le quinoa dans l'eau avec le curry.</li>
+                            <li>Une fois l'eau absorbée, verser le lait de coco.</li>
+                            <li>Mélanger doucement et servir avec la coriandre.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="muscle-card">
+                    <h4 style="color: #0071e3;">4. Cheesecake Citron-Basilic</h4>
+                    <p style="font-size: 0.8rem; color: #86868b;">🕒 35 min | 🔥 450 kcal</p>
+                    <p style="margin: 10px 0; font-size: 0.9rem;"><strong>🛒 Ingrédients :</strong> 500g Skyr, 3 œufs,
+                        40g Maïzena, 1 c.à.s zeste citron.</p>
+                    <div style="font-size: 0.9rem; border-top: 1px solid #eee; padding-top: 10px;">
+                        <strong>👨‍🍳 Étapes :</strong>
+                        <ul style="padding-left: 15px; margin-top: 5px;">
+                            <li>Préchauffer le four à 180°C.</li>
+                            <li>Mélanger tous les ingrédients au fouet.</li>
+                            <li>Cuire 30 min, laisser refroidir au frigo.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="margin: 40px 0; opacity: 0.1;">
+
+            <h3 class="title-expert" style="margin-bottom: 20px;">🚀 Objectif : Prise de Masse</h3>
+            <div class="exercise-grid-inner">
+                <div class="muscle-card">
+                    <h4 style="color: #cf222e;">1. Carbonara "Fit" Musclée</h4>
+                    <p style="font-size: 0.8rem; color: #86868b;">🕒 12 min | 🔥 860 kcal</p>
+                    <p style="margin: 10px 0; font-size: 0.9rem;"><strong>🛒 Ingrédients :</strong> 150g pâtes crues, 1
+                        œuf entier, 30g parmesan, 1 c.à.c poivre noir.</p>
+                    <div style="font-size: 0.9rem; border-top: 1px solid #eee; padding-top: 10px;">
+                        <strong>👨‍🍳 Étapes :</strong>
+                        <ul style="padding-left: 15px; margin-top: 5px;">
+                            <li>Cuire les pâtes. Mélanger l'œuf et le parmesan à part.</li>
+                            <li>Garder une louche d'eau de cuisson. Égoutter les pâtes.</li>
+                            <li>Mélanger pâtes + sauce + eau de cuisson hors du feu (crémeux).</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="muscle-card">
+                    <h4 style="color: #cf222e;">2. Smoothie Choco-Peanut</h4>
+                    <p style="font-size: 0.8rem; color: #86868b;">🕒 3 min | 🔥 760 kcal</p>
+                    <p style="margin: 10px 0; font-size: 0.9rem;"><strong>🛒 Ingrédients :</strong> 100g avoine, 1 scoop
+                        Whey, 1 c.à.s beurre cacahuète, 300ml lait.</p>
+                    <div style="font-size: 0.9rem; border-top: 1px solid #eee; padding-top: 10px;">
+                        <strong>👨‍🍳 Étapes :</strong>
+                        <ul style="padding-left: 15px; margin-top: 5px;">
+                            <li>Verser le lait en premier dans le blender.</li>
+                            <li>Ajouter le reste des ingrédients.</li>
+                            <li>Mixer 1 min. Servir bien frais.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="muscle-card">
+                    <h4 style="color: #cf222e;">3. Chili con Carne Fuego</h4>
+                    <p style="font-size: 0.8rem; color: #86868b;">🕒 25 min | 🔥 820 kcal</p>
+                    <p style="margin: 10px 0; font-size: 0.9rem;"><strong>🛒 Ingrédients :</strong> 150g bœuf, 1 c.à.c
+                        cumin, 100ml sauce tomate, 1 carré chocolat noir.</p>
+                    <div style="font-size: 0.9rem; border-top: 1px solid #eee; padding-top: 10px;">
+                        <strong>👨‍🍳 Étapes :</strong>
+                        <ul style="padding-left: 15px; margin-top: 5px;">
+                            <li>Saisir la viande hachée avec le cumin.</li>
+                            <li>Verser la sauce tomate et le chocolat noir.</li>
+                            <li>Mijoter 10 min à feu doux. Servir avec du riz.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="muscle-card">
+                    <h4 style="color: #cf222e;">4. Burger & Oignons Confits</h4>
+                    <p style="font-size: 0.8rem; color: #86868b;">🕒 15 min | 🔥 800 kcal</p>
+                    <p style="margin: 10px 0; font-size: 0.9rem;"><strong>🛒 Ingrédients :</strong> Pain burger, steak
+                        5%, 1 oignon, 1 c.à.s vinaigre balsamique.</p>
+                    <div style="font-size: 0.9rem; border-top: 1px solid #eee; padding-top: 10px;">
+                        <strong>👨‍🍳 Étapes :</strong>
+                        <ul style="padding-left: 15px; margin-top: 5px;">
+                            <li>Faire revenir l'oignon émincé avec le vinaigre (5 min).</li>
+                            <li>Griller le steak. Toaster le pain.</li>
+                            <li>Assembler avec une tranche de fromage. Dévorer.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section id="complements">
+            <h2 class="method-title">💊 Suppléments : L'Essentiel vs Le Marketing</h2>
+            <p style="text-align: center; color: #86868b; margin-bottom: 30px;">Les 5% qui boostent tes derniers
+                efforts.</p>
+
+            <div class="exercise-grid-inner">
+
+                <div class="muscle-card">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                        <h4 style="color: #0071e3;">1. Créatine Monohydrate</h4>
+                        <span class="ex-badge expert" style="background: #e1f5fe; color: #01579b;">Indispensable</span>
+                    </div>
+                    <p style="font-size: 0.85rem; margin: 10px 0; line-height: 1.4;">
+                        Le supplément le plus étudié au monde. Augmente la force explosive et la récupération
+                        cellulaire.
+                    </p>
+                    <p style="font-size: 0.85rem;"><strong>⚡ Dosage :</strong> 3g à 5g par jour, tous les jours (même au
+                        repos).</p>
+                </div>
+
+                <div class="muscle-card">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                        <h4 style="color: #0071e3;">2. Whey Protein</h4>
+                        <span class="ex-badge inter" style="background: #fff3e0; color: #e65100;">Pratique</span>
+                    </div>
+                    <p style="font-size: 0.85rem; margin: 10px 0; line-height: 1.4;">
+                        Ce n'est pas de la magie, c'est juste du lait filtré. Pratique pour atteindre ton quota de
+                        protéines si tu n'as pas le temps de cuisiner.
+                    </p>
+                    <p style="font-size: 0.85rem;"><strong>⚡ Dosage :</strong> 1 scoop (30g) après l'entraînement ou en
+                        collation.</p>
+                </div>
+
+                <div class="muscle-card">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                        <h4 style="color: #0071e3;">3. Magnésium & Zinc</h4>
+                        <span class="ex-badge debutant" style="background: #f1f8e9; color: #33691e;">Santé</span>
+                    </div>
+                    <p style="font-size: 0.85rem; margin: 10px 0; line-height: 1.4;">
+                        Essentiel pour le système nerveux et la qualité du sommeil (là où le muscle se construit). Évite
+                        les crampes et la fatigue.
+                    </p>
+                    <p style="font-size: 0.85rem;"><strong>⚡ Dosage :</strong> À prendre le soir avant de dormir.</p>
+                </div>
+
+                <div class="muscle-card" style="border: 1px solid #ffcdd2; background: #fffbfa;">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                        <h4 style="color: #cf222e;">⚠️ Brûleurs de Graisse</h4>
+                        <span class="ex-badge" style="background: #ffebee; color: #b71c1c;">Marketing</span>
+                    </div>
+                    <p style="font-size: 0.85rem; margin: 10px 0; line-height: 1.4;">
+                        <strong>La vérité :</strong> 99% d'entre eux sont inutiles. Rien ne remplace un déficit
+                        calorique. Garde ton argent pour de la bonne nourriture.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+<hr>
+        <section id="conseils">
+            <h2 class="method-title">💡 Les Secrets de la Progression</h2>
+
+            <div class="exercise-grid-inner">
+
+                <div class="muscle-card">
+                    <div style="font-size: 2rem; margin-bottom: 15px;">⚖️</div>
+                    <h4>La Règle des 80/20</h4>
+                    <p style="font-size: 0.9rem; color: #86868b; line-height: 1.5;">
+                        Ne cherche pas la perfection. Si tu manges "propre" 80% du temps, les 20% restants (plaisirs,
+                        sorties) n'auront aucun impact négatif sur ton physique. C'est la clé pour tenir sur le long
+                        terme.
+                    </p>
+                </div>
+
+                <div class="muscle-card">
+                    <div style="font-size: 2rem; margin-bottom: 15px;">💧</div>
+                    <h4>L'Hydratation & la Force</h4>
+                    <p style="font-size: 0.9rem; color: #86868b; line-height: 1.5;">
+                        Une baisse de seulement 2% d'hydratation peut réduire ta force de 10%. Boire de l'eau n'est pas
+                        une option, c'est ton premier booster de performance en salle.
+                    </p>
+                </div>
+
+                <div class="muscle-card">
+                    <div style="font-size: 2rem; margin-bottom: 15px;">😴</div>
+                    <h4>Le Muscle dort pour grandir</h4>
+                    <p style="font-size: 0.9rem; color: #86868b; line-height: 1.5;">
+                        Tu ne construis pas de muscle à la salle, tu le détruis. C'est durant ton sommeil profond que
+                        ton corps libère les hormones de croissance nécessaires à la réparation et au volume.
+                    </p>
+                </div>
+
+                <div class="muscle-card">
+                    <div style="font-size: 2rem; margin-bottom: 15px;">⏱️</div>
+                    <h4>Le Mythe de la Fenêtre</h4>
+                    <p style="font-size: 0.9rem; color: #86868b; line-height: 1.5;">
+                        Inutile de courir après ton shaker de whey 2 minutes après ta séance. Ce qui compte, c'est ton
+                        apport total en protéines sur 24h. Détends-toi et mange un vrai repas dans les 2h qui suivent.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer style="padding: 40px 20px; text-align: center;">
+        <p>© 2026 PureFit Nutrition</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
